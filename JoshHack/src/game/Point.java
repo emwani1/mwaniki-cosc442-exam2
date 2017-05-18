@@ -6,6 +6,30 @@ import java.util.List;
 
 public class Point {
 	public int x;
+	private int getX() {
+		return x;
+	}
+
+	private void setX(int x) {
+		this.x = x;
+	}
+
+	private int getY() {
+		return y;
+	}
+
+	private void setY(int y) {
+		this.y = y;
+	}
+
+	private int getZ() {
+		return z;
+	}
+
+	private void setZ(int z) {
+		this.z = z;
+	}
+
 	public int y;
 	public int z;
 	
